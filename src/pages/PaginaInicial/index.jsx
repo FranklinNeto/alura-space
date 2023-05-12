@@ -1,9 +1,10 @@
 import styles from "./PaginaInicial.module.scss";
-import Cabecalho from "../../components/Cabecalho";
-import Menu from "../../components/Menu";
-import Banner from "../../components/Banner";
-import Rodape from "../../components/Rodape";
-import Galeria from "../../components/Galeria";
+import Cabecalho from "components/Cabecalho";
+import Menu from "components/Menu";
+import Banner from "components/Banner";
+import Rodape from "components/Rodape";
+import Galeria from "components/Galeria";
+import Populares from "components/Populares";
 
 const PaginaInicial = () => {
   return (
@@ -14,10 +15,12 @@ const PaginaInicial = () => {
           <Menu />
           <Banner />
         </section>
+        <div className={styles.galeria}>
+          <Galeria />
+          <Populares />
+        </div>
       </main>
-      <div className={styles.galeria}>
-        <Galeria />
-      </div>
+
       <Rodape />
     </>
   );
