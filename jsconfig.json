@@ -4,11 +4,3 @@
   },
   "include": ["src"]
 }
-
-/* Com essa configuraçao, é possível importar os componentes de forma absoluta, 
-sem precisar digitar todo o caminho dos arquivos
-Ex: 
-    import Populares from "../../components/Populares"; ==> 
-    import Populares from "components/Populares";
-
-*/

@@ -1,12 +1,11 @@
 import Card from "../Card";
 import styles from "./CardList.module.scss";
-import fotos from "./fotos.json";
 
-function CardList() {
+function CardList({ itens }) {
   return (
     <ul className={styles.galeria__cards}>
-      {fotos.map((element) => {
-        return <Card key={element.id} foto={element} />;
+      {itens.map((item) => {
+        return <Card key={item.id} foto={item} />;
       })}
     </ul>
   );
