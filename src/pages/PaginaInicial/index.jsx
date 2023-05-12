@@ -3,6 +3,7 @@ import Cabecalho from "../../components/Cabecalho";
 import Menu from "../../components/Menu";
 import Banner from "../../components/Banner";
 import Rodape from "../../components/Rodape";
+import Galeria from "../../components/Galeria";
 
 const PaginaInicial = () => {
   return (
@@ -14,6 +15,9 @@ const PaginaInicial = () => {
           <Banner />
         </section>
       </main>
+      <div className={styles.galeria}>
+        <Galeria />
+      </div>
       <Rodape />
     </>
   );

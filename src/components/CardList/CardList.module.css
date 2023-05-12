@@ -1,0 +1,7 @@
+.galeria__cards {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=CardList.module.css.map */
