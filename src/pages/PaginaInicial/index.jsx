@@ -1,7 +1,7 @@
-import banner from "../../assets/banner.png";
 import styles from "./PaginaInicial.module.scss";
 import Cabecalho from "../../components/Cabecalho";
 import Menu from "../../components/Menu";
+import Banner from "../../components/Banner";
 
 const PaginaInicial = () => {
   return (
@@ -10,10 +10,7 @@ const PaginaInicial = () => {
       <main>
         <section className={styles.principal}>
           <Menu />
-          <div className={styles.principal__imagem}>
-            <h1>A galeria mais completa do espaço</h1>
-            <img src={banner} alt="A imagem da terra vista do espaço" />
-          </div>
+          <Banner />
         </section>
       </main>
     </>
