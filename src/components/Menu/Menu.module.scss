@@ -1,3 +1,5 @@
+@import "../../styles/variaveis";
+
 .menu {
   width: 18%;
 
@@ -18,9 +20,8 @@
 
     &:first-child {
       a {
-        font-weight: 700;
-        color: #7b78e5;
-        font-family: "GandhiSansRegular";
+        color: $roxo;
+        font-family: $fonte-bold;
       }
     }
   }
